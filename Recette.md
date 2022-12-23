@@ -1,5 +1,5 @@
-Recette pour être malade : 
-• 40 cl de rhum blanc
+Recette pour être vraiment malade : 
+• 40 cl d'absinthe
 • 20 cl de sirop de sucre de canne
 • 60 feuilles de menthe
 • 5 Choux de Bruxelles
