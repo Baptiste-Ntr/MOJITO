@@ -1,5 +1,5 @@
 # MOJITO
  TP Architecture Web
 
-# Voici le graphique des commits :
- ![GitGraph](./gitgraph.jpg)
+# Voici les commandes git effectué :
+ 
