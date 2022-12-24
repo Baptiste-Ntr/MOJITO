@@ -17,7 +17,9 @@ body .container {
 }
 body .container aside {
   width: 35%;
-  height: 100vh;
+  max-width: 500px;
+  min-width: 400px;
+  height: 100%;
   background: #333;
   display: flex;
   flex-direction: column;
@@ -49,13 +51,160 @@ body .container aside .profil .infos h3 {
 body .container aside .profil .infos p {
   font-weight: 400;
 }
+body .container aside .langages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container aside .langages h1 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+body .container aside .langages h1::before {
+  content: "//";
+  color: #F2994A;
+  margin-right: 20px;
+  font-weight: 600;
+}
+body .container aside .langages .box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+body .container aside .langages .box-container .box {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 90px;
+  background: #333;
+  border: 3px solid #F2994A;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+body .container aside .langages .box-container .box:hover {
+  scale: 1.05;
+}
+body .container aside .portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container aside .portfolio h1 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+body .container aside .portfolio h1::before {
+  content: "//";
+  color: #F2994A;
+  margin-right: 20px;
+  font-weight: 600;
+}
+body .container aside .portfolio .box {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  height: 70px;
+  width: 300px;
+  background: #333;
+  border: 3px solid #F2994A;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+body .container aside .portfolio .box:hover {
+  scale: 1.05;
+}
 body .container main {
   width: 65%;
-  height: 100vh;
+  height: 100%;
   background: #fff;
 }
 body .container main h1 {
   padding: 50px;
+  font-size: 70px;
+  color: #333;
+}
+body .container main .experience h1 {
   font-size: 50px;
   color: #333;
+}
+body .container main .experience h1::before {
+  content: "//";
+  color: #F2994A;
+  margin-right: 20px;
+  font-weight: 600;
+}
+body .container main .experience .liste {
+  width: 50%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+body .container main .experience .liste .date ul {
+  list-style-type: none;
+  text-align: right;
+}
+body .container main .experience .liste .barre {
+  height: 150px;
+  width: 5px;
+  background: #333;
+  border-radius: 10px;
+}
+body .container main .experience .liste .lieu ul {
+  list-style-type: none;
+  text-align: left;
+}
+body .container main .formation h1 {
+  font-size: 50px;
+  color: #333;
+}
+body .container main .formation h1::before {
+  content: "//";
+  color: #F2994A;
+  margin-right: 20px;
+  font-weight: 600;
+}
+body .container main .formation .box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+body .container main .formation .box-container .box {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  height: 70px;
+  width: 150px;
+  background: #333;
+  border: 3px solid #F2994A;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+body .container main .formation .box-container .box:hover {
+  scale: 1.05;
 }/*# sourceMappingURL=style.css.map */

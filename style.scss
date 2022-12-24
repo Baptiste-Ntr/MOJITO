@@ -16,7 +16,9 @@ body {
         display: flex;
         aside {
             width: 35%;
-            height: 100vh;
+            max-width: 500px;
+            min-width: 400px;
+            height: 100%;
             background: #333;
             display: flex;
             flex-direction: column;
@@ -48,19 +50,176 @@ body {
                 }
             }
             .langages {
-                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h1 {
+                    font-size: 30px;
+                    color: #fff;
+                    margin-bottom: 30px;
+                    &::before {
+                        content: '//';
+                        color: #F2994A;
+                        margin-right: 20px;
+                        font-weight: 600;
+                    }
+                }
+                .box-container{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 80%;
+                    margin: auto;
+                    .box {
+                        margin-left: 10px;
+                        margin-bottom: 20px;
+                        height: 50px;
+                        width: 90px;
+                        background: #333;
+                        border: 3px solid #F2994A;
+                        border-radius: 10px;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        color: #fff;
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                        cursor: pointer;
+                        transition: 0.2s all ease-in-out;
+                        &:hover {
+                            scale: 1.05;
+                        }
+                    }
+                }
+            }
+            .portfolio {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                h1 {
+                    font-size: 30px;
+                    color: #fff;
+                    margin-bottom: 30px;
+            
+                    &::before {
+                        content: '//';
+                        color: #F2994A;
+                        margin-right: 20px;
+                        font-weight: 600;
+                    }
+                }
+                .box {
+                    margin-left: 10px;
+                    margin-bottom: 20px;
+                    height: 70px;
+                    width: 300px;
+                    background: #333;
+                    border: 3px solid #F2994A;
+                    border-radius: 10px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    color: #fff;
+                    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                    cursor: pointer;
+                    transition: 0.2s all ease-in-out;
+
+                    &:hover {
+                        scale: 1.05;
+                    }
+                }
             }
         }
         main {
             width: 65%;
-            height: 100vh;
+            height: 100%;
             background: #fff;
             h1 {
                 padding: 50px;
-                font-size: 50px;
+                font-size: 70px;
                 color: #333;
             }
-        }
+            .experience {
+                h1 {
+                    font-size: 50px;
+                    color: #333;
+                        &::before {
+                            content: '//';
+                            color: #F2994A;
+                            margin-right: 20px;
+                            font-weight: 600;
+                        }
+                }
+                .liste {
+                    width: 50%;
+                    height: 30%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin: auto;
+                    .date {
+                        ul {
+                            list-style-type: none;
+                            text-align: right;
+                        }
+                    }
+                    .barre {
+                        height: 150px;
+                        width: 5px;
+                        background: #333;
+                        border-radius: 10px;
+                    }
+                    .lieu {
+                        ul {
+                            list-style-type: none;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            .formation {
+                h1 {
+                    font-size: 50px;
+                    color: #333;
+            
+                    &::before {
+                        content: '//';
+                        color: #F2994A;
+                        margin-right: 20px;
+                        font-weight: 600;
+                    }
+                }
+                .box-container {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 80%;
+                    margin: auto;
 
+                    .box {
+                        margin-left: 50px;
+                        margin-bottom: 20px;
+                        height: 70px;
+                        width: 150px;
+                        background: #333;
+                        border: 3px solid #F2994A;
+                        border-radius: 10px;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        color: #fff;
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                        cursor: pointer;
+                        transition: 0.2s all ease-in-out;
+
+                        &:hover {
+                            scale: 1.05;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
